@@ -7,3 +7,14 @@
 #
 layout: default
 ---
+
+
+<div id="latest-posts">
+  {% assign blog_posts = site.data.blog-posts %}
+  {% for post in blog_posts %}
+    <div class="post">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </div>
+  {% endfor %}
+</div>
