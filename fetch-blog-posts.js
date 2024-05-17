@@ -9,7 +9,7 @@ fetch(apiUrl)
     .then(data => {
         console.log('Fetched data:', data); // Debugging line
         if (data.posts) {
-            fs.writeFileSync('data/blog-posts.json', JSON.stringify(data.posts, null, 2));
+            fs.writeFileSync('_data/blog-posts.json', JSON.stringify(data.posts, null, 2));
             console.log('Data written to data/blog-posts.json');
         } else {
             console.error('No posts found in the API response');
