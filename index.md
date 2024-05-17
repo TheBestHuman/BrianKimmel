@@ -8,7 +8,7 @@
 layout: default
 ---
 
-
+<div>hi</div>
 <div id="latest-posts">
   {% assign blog_posts = site.data.blog-posts %}
   {% for post in blog_posts %}
