@@ -11,6 +11,10 @@ title: Senior Network System Administrator
 email: brett.h@email.co.uk
 website: www.github.com/sproogen/resume-theme
 
+blog_posts_section:
+  title: "Latest Blog Posts"
+  data_file: "blog-posts"
+
 # Dark Mode (true/false/never)
 darkmode: false
 
